@@ -1,4 +1,4 @@
-    <div class="header">
+    <div class="header" style="position:sticky; top:0; z-index:10;">
         <!--sticky-top-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="../Homepage.php"><img id="logo" src="img/logo.png"></a>
