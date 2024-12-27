@@ -1,0 +1,152 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row{
+    display: flex;
+}
+
+.abc{
+    display: flex;
+    flex-direction: column; 
+}
+
+.edit{
+    display: flex;
+    margin-top: auto;
+    justify-content: flex-end;
+}
+
+#logo {
+    height: 60px;
+    width: 120px;
+}
+
+#male {
+    height: 45px;
+    width: 45px;
+}
+
+#female {
+    height: 45px;
+    width: 45px;
+}
+
+#unisex{
+    height: 45px;
+    width: 45px;
+}
+
+
+.image-container{
+    width:50%;
+}
+
+.property-card{
+    height: 400px;
+    width: 100%;
+    display: block;
+}
+
+.property-container{
+    display:flex;
+    margin:40px auto;
+    padding: 10px;
+    min-width: 280px;
+    box-shadow:0 0 4px black;
+}
+
+@media (max-width:450px){
+    .property-container{
+        flex-direction: column;
+    }
+
+    .image-container{
+        width:100%;
+        height: 40%;
+    }
+
+    .content-container{
+        width:100%;
+    }
+
+    .filter-bar{
+        display: block;
+        margin-left: 40px;
+    }
+
+    .col-auto{
+        margin-top: 10px;;
+    }
+}
+
+.content-container{
+    display: block;
+    width:100%;
+}
+
+.rating{
+    display: flex;
+    justify-content:space-between;
+}
+
+.rent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rent-container{
+    display: flex;
+}
+
+.button-container a{
+    color: white;
+    background-color: rgb(26, 211, 174);
+    padding: 4px;
+}    
+
+.nav-bar-links li a{
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+}
+
+.MP{
+    display: block;
+    position: relative;
+    top:150px;
+    width:100%;
+}
+
+#heading , #detail{
+    display: flex;
+    margin-top: 20px;
+    height:auto;
+    justify-content: center;
+}
+
+#detail img{
+    float:left;
+    margin-right: 20px;
+    height:150px;
+    width:150px;
+}
+
+.my-profile{
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height:40px;
+    background-color:rgba(0, 0, 0, 0.786);
+}
+
+.footer a{
+   margin:0 25px;
+   text-decoration: none;
+   color: white;
+}
