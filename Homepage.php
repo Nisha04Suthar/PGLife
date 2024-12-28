@@ -38,8 +38,6 @@
   <div class="search">
     <div id="search">
       <h1>Your Perfect PG Awaits – Search by City!</h1>
-
-
       <form id="search-form" style="display:flex;" action="property_list.php" method="GET">
         <input class="form-control input-city" id="city" name="city" type="text"
           placeholder="Enter your city to search" />
@@ -49,12 +47,10 @@
           </button>
         </div>
       </form>
-
     </div>
   </div>
 
   <div class="mc">
-
     <div id="heading">
       <h1>Major Cities</h1>
     </div>
