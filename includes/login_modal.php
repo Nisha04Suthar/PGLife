@@ -29,14 +29,14 @@
                         </div>
 
                         <div class="form-group">
-                            <button type="submit" class="btn btn-block btn-primary">Login</button>
+                            <button style="background-color: rgb(26, 211, 174); color: white; " type="submit" class="btn btn-block">Login</button>
                         </div>
                     </form>
                 </div>
 
                 <div class="modal-footer">
                     <span>
-                        <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signup-modal">CLick here</a>
+                        <a href="#" style="color: rgb(26, 211, 174);" data-dismiss="modal" data-toggle="modal" data-target="#signup-modal">CLick here</a>
                         to register a new Account
                     </span>
                 </div>

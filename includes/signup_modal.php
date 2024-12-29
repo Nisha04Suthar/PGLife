@@ -68,14 +68,14 @@
                     </div>
 
                     <div class="form-group">
-                        <button type="submit" class="btn btn-block btn-primary">Create Account</button>
+                        <button style="background-color: rgb(26, 211, 174); color: white; " type="submit" class="btn btn-block">Create Account</button>
                     </div>
                 </form>
             </div>
 
             <div class="modal-footer">
                 <span>Already have an Account?
-                    <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#login-modal">Login</a>
+                    <a href="#" style="color: rgb(26, 211, 174);" data-dismiss="modal" data-toggle="modal" data-target="#login-modal">Login</a>
                 </span>
             </div>
         </div>
