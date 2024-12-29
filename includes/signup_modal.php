@@ -10,7 +10,7 @@
             </div>
 
             <div class="modal-body">
-                <form id="signup-form" class="form" role="form" method="post" action="..api/signup_submit.php">
+                <form id="signup-form" class="form" role="form" method="post" action="api/signup_submit.php">
                     <div class="input-group form-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text">
